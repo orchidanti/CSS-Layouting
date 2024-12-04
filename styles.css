@@ -1,0 +1,102 @@
+header {
+    background-color: #e91e63; /* Warna latar belakang pink */
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+p {
+    text-align: justify; /* Membuat teks rata kiri-kanan */
+    text-justify: inter-word; /* Menjaga jarak antar kata tetap merata */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #f06292; /* Background pink muda */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #d81b60; /* Warna border pink gelap */
+}
+
+nav ul li a:hover {
+    background-color: #ec407a; /* Warna hover sedikit lebih terang */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.tentang-aku, .pendidikan {
+    width: 50%;
+    padding: 30px;
+    border: 1px solid #f48fb1; /* Border pink muda */
+    border-radius: 5px;
+    height: 450px;
+}
+
+.tentang-aku {
+    background-color: #f48fb1; /* Background pink muda */
+    color: white;
+    width: 25%;
+    border-radius: 5px;
+    border: 5px solid #d81b60; /* Border pink gelap */
+}
+
+.pendidikan {
+    background-color: #fce4ec; /* Latar belakang pink pucat */
+    color: rgb(0, 0, 0);
+    width: 65%;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.timeline .item {
+    width: 100px;
+    height: 65px;
+    background-color: #f06292; /* Background item pink */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #c2185b; /* Border pink lebih gelap */
+}
+
+footer {
+    background-color: #f06292; /* Footer dengan latar belakang pink */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border-top: 2px solid #d81b60; /* Border atas footer pink gelap */
+    display: flex; /* Menjadikan footer fleksibel */
+    justify-content: center; /* Menjaga teks tetap di tengah */
+    align-items: center; /* Mengatur posisi vertikal di tengah jika tinggi footer lebih besar */
+}
